@@ -11,3 +11,18 @@ print(message[20])
 print(message[-14])
 print(message[0])
 
+
+
+
+message="hello world"
+message[2]="L"   # it raises errror bcoz we cant change the existing iten in string as it is immutable 
+#del message[2]
+#del message #it deletes the string
+
+
+#iterating through string
+message="hello world"
+for each in message:
+    print(each)  # >>> message="hello world"
+    for each in message:
+     print(each)

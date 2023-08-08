@@ -9,9 +9,13 @@ class Student:
     def ten_years(self, current_age):
         return current_age + 10
     
-    student1 = Student()
-    age_after_ten_years = student1.ten_years(10)
-    print(age_after_ten_years)
+student1 = Student()
+age_after_ten_years = student1.ten_years(10)
+print(age_after_ten_years)
+    
+    
+    
+    
 # class Student:
 #     def ten_years(self, current_age):
 #         return current_age + 10

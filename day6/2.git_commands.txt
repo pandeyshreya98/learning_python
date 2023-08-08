@@ -1,0 +1,51 @@
+11. git config --global user.name <username>
+=> configured the git global username in local(your system or laptop)
+
+
+2.git config --global user.email <your---email>
+=>  configure the git globall email in local
+the above commands are only one time for activation
+  
+
+  local => laptop
+  remote=> github
+  
+3. git config --global user.name
+4. git --config global user.email
+
+
+5. git init => initializes a repository in the local
+=> should not be used multiple times in a same project
+
+6. gitignore
+=> if we do not intend to upload any file or folder from the local repo to rhe remote repo, then such files and folders
+name are kept (name mention ) in .gitignore file.
+
+=>gitignore file  should be named exactly ".gitignore"
+
+7. git status 
+=> showsthe current status of the local repo i.e any changes that need to be added, commited ,pull or pushed
+ 
+ 8. git add .
+ => adds all the changes to the git .this is done exactly before committing the code.
+
+ 9. git commit -m "commit-message"      ----name change lai ammend garna parxa
+ ----to know about the owner about 
+
+ 10. git branch
+ => shows all the branches and highlights the current branch
+
+ 11. git branch -M main =>   makes " main " branch as the root branch
+
+ 12. git remote add origin<ssh-link>
+ => adds a remote with name 'origin' in the local repo   
+
+ 13. git push -u origin main
+ git push => uploads your code to github
+
+ -u => this tracks your local branch  upstream with remote
+ origin => alies name wfor remote (github)
+ main=> remote "main" branch
+
+ the significance of  -u (tracking the upstream) is that we can write "git push" only for next time 
+ onward otherwise we should write "git push origin main " everytime

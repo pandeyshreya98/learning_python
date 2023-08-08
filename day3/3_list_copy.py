@@ -1,12 +1,12 @@
-a=[1,2,3,]
+a=[1,2,3]
 b=a
 print(a)  #[1,2,3]
-print(b)  #[1,2,3]
+print(b)  #[1,2,3]              ######memory location same
 print(a is b)  #true
 
 b=a.copy()
 print(a)  #[1,2,3]
-print(b)  #[1,2,3]
+print(b)  #[1,2,3]           ############memory location different
 print(a is b)  #false
 
 

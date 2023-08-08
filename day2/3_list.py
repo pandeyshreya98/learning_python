@@ -29,6 +29,7 @@ print(vowels(-3)) #i
 
 
 #item assignment is possible in list as it is mutable
+vowels=["a","e","i","o","u"]
 vowels[1]="E"
 print(vowels)
 

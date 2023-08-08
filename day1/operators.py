@@ -17,7 +17,7 @@ print(a+b)
 
 
 #2. subtractiona1
-a=2
+a=4
 b=1
 print(a-b)
 
@@ -57,8 +57,8 @@ print(a!=b) #false
 
 print(a>b or b!=a)
 print(a>b and b!=a)
-print(not true) #false
-print(not false) #true
+print(not True) #false
+print(not False) #true
 
 a=5
 print(not a) #false
